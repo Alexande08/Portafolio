@@ -1,8 +1,423 @@
-<html>
-    <head>
-        <title>GOLFA</title>
-    </head>
-    <body>
-        <h1>GOLFA</h1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristian Correal</title>
+    <link rel="icon" href="imagenes/icono.png">
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!---------BARRA DE NAVEGACIÓN------------>
+    <nav class="navbar navbar-expand-lg navbar-dark p-2">
+    <a class="navbar-brand" href="#"><img class="" src="imagenes/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="menu collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="perfil.html">PERFIL</a>
+            <a class="nav-item nav-link" href="#pag">PÁGINAS</a>
+            <a class="nav-item nav-link" href="#ilust">ILUSTRACIONES</a>
+            <a class="nav-item nav-link" href="#edit">EDITORIAL</a>
+            <a class="nav-item nav-link" href="#vid">VIDEOS</a>
+            <a class="nav-item nav-link" href="contacto.html">CONTACTO</a>
+        </div>
+    </div>
+</nav>
+
+      <!---------HEADER------------>
+
+      <header class="container col-md-10 col-sm-10 col-10 p-4 cabeza">
+        <div class="row correal">
+          <section class="col-md-6 col-sm-12 col-12">
+          <div class="row">
+            <h1 class="text-center">CRISTIAN CORREAL</h1>
+            <section class=".d-none .d-sm-block .d-md-none d-md-none ">
+              <img class="col-md-8 col-6 mx-auto d-block" src="imagenes/Foto.jpg" alt="">
+          </section>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique facere quis minima minus quisquam, sunt, nobis deserunt nulla laudantium officia harum aliquam excepturi deleniti magni eius! Reprehenderit, obcaecati facere! Expedita, praesentium natus! Voluptatum ratione deleniti accusantium. Odio ipsam iure consequuntur aut. Voluptas libero ut at asperiores rerum reprehenderit eius sunt!</p>
+            <article class="mover">
+              <figure id="hdv">
+                  <figcaption class="btn" data-bs-toggle="modal" data-bs-target="#hv">HOJA DE VIDA</figcaption>
+                  <div class="modal fade" id="hv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" >
+                      <div class="modal-content" id="mtwo">
+                        <div class="modal-header">
+                          <h2 class="modal-title fs-5" id="tmodal">HOJA DE VIDA</h2>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body d-flex align-items-center justify-content-center">
+                              <div class="">
+                                <img src="imagenes/hoja de vida.jpg" class="d-block w-100 h-100" alt="...">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </figure>
+          </article>
+    
+          </section>
+          <section class="d-none d-sm-block d-sm-none d-md-block col-6">
+              <img class="col-md-8 col-6 mx-auto d-block" src="imagenes/Foto.jpg" alt="">
+          </section>
+          </div>
+      </header>
+    <!------------------------------PÁGINAS--------------------------------------->
+    <section id="pag" class="col-10 m-auto">
+      <h1>PÁGINAS</h1>
+      <hr>
+      <div class="row col-lg-8 col-sm-10 col-8 m-auto">
+          <figure class="col-lg-6 col-sm-6">
+              <div class="row">
+                  <div class="col">
+                      <a href="paginas/Bently/index.html" target="_blank">
+                          <img class="w-100" src="imagenes/pbently.jpg" alt="">
+                      </a>
+                  </div>
+              </div>
+          </figure>
+          <figure class="col-lg-6 col-sm-6">
+              <div class="row">
+                  <div class="col">
+                      <a href="paginas/Sub/Sub/index.html" target="_blank">
+                          <img class="w-100" src="imagenes/psubway.jpg" alt="">
+                      </a>
+                  </div>
+              </div>
+          </figure>
+      </div>
+  </section>
+    <!------------------------------ILUSTRACIONES--------------------------------------->
+    <section id="ilust" class="col-10 m-auto">
+    <h1 class="mt-5">ILLUSTRACIONES</h1>
+      <hr class="col-10 m-auto mb-3">
+      <div class="row col-lg-8 col-sm-10 col-8 m-auto">
+        <article class="align-items-center justify-content-center col-lg-6 col-sm-6">
+    <figure id="fts" class="justify-content-center position-relative">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#ojo">
+            <img class="ilust" src="imagenes/portadai.jpg" alt="">
+        </a>
+        <figcaption class="btn" data-bs-toggle="modal" data-bs-target="#ojo">OTRO MUNDO</figcaption>
+        <div class="modal fade" id="ojo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" id="mone">
+                <div class="modal-content" id="mtwo">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="tmodal">OTRO MUNDO</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center justify-content-center">
+                        <div class="">
+                            <img src="imagenes/portada.jpg" class="d-block w-100 h-100" alt="OJO">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </figure>
+</article>
+
+<article class="align-items-center justify-content-center col-lg-6 col-sm-6">
+  <figure id="fts" class="justify-content-center position-relative">
+      <a href="#" data-bs-toggle="modal" data-bs-target="#dexter">
+          <img class="ilust" src="imagenes/Dex-Volumen-1.jpg" alt="">
+      </a>
+      <figcaption class="btn" data-bs-toggle="modal" data-bs-target="#dexter">DEXTER</figcaption>
+      <div class="modal fade" id="dexter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" id="mone">
+              <div class="modal-content" id="mtwo">
+                  <div class="modal-header">
+                      <h2 class="modal-title fs-5" id="tmodal">DEXTER</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex align-items-center justify-content-center">
+                      <div class="">
+                          <img src="imagenes/Dex-Volumen-1.jpg" class="d-block w-100 h-100" alt="DEXTER">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </figure>
+</article>
+
+<article class="align-items-center justify-content-center col-lg-6 col-sm-6">
+  <figure id="fts" class="justify-content-center position-relative">
+      <a href="#" data-bs-toggle="modal" data-bs-target="#cocina">
+          <img class="ilust" src="imagenes/Cocina.jpg" alt="COCINA">
+      </a>
+      <figcaption class="btn" data-bs-toggle="modal" data-bs-target="#cocina">COCINA</figcaption>
+      <div class="modal fade" id="cocina" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" id="mone">
+              <div class="modal-content" id="mtwo">
+                  <div class="modal-header">
+                      <h2 class="modal-title fs-5" id="tmodal">COCINA</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex align-items-center justify-content-center">
+                      <div class="">
+                          <img src="imagenes/Cocina.jpg" class="d-block w-100 h-100" alt="COCINA">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </figure>
+</article>
+
+<article class="align-items-center justify-content-center col-lg-6 col-sm-6">
+  <figure id="fts" class="justify-content-center position-relative">
+      <a href="#" data-bs-toggle="modal" data-bs-target="#destructores">
+          <img class="ilust" src="imagenes/Pdestructores.jpg" alt="DESTRUCTORES DE MUNDOS">
+      </a>
+      <figcaption class="btn" data-bs-toggle="modal" data-bs-target="#destructores">DESTRUCTORES DE MUNDOS</figcaption>
+      <div class="modal fade" id="destructores" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" id="mone">
+              <div class="modal-content" id="mtwo">
+                  <div class="modal-header">
+                      <h2 class="modal-title fs-5" id="tmodal">DESTRUCTORES DE MUNDOS</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex align-items-center justify-content-center">
+                      <div class="">
+                          <img src="imagenes/Destructores de mundos.jpg" class="d-block w-100 h-100" alt="DESTRUCTORES DE MUNDOS">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </figure>
+</article> 
+</section>     
+
+    <!------------------------------EDITORIAL--------------------------------------->
+    <section id="edit" class="col-10 m-auto">
+      <h1 class="mt-5">EDITORIAL</h1>
+        <hr class="col-10 m-auto mb-3">
+        <div class="row col-lg-8 col-sm-10 col-8 m-auto">
+          <article class="align-items-center justify-content-center col-lg-6 col-sm-6">
+    <figure id="fts" class="justify-content-center position-relative">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#pym">
+            <img class="ilust" src="imagenes/portadarv.jpg" alt="REVISTA P&M">
+        </a>
+        <figcaption class="btn" data-bs-toggle="modal" data-bs-target="#pym">REVISTA P&M</figcaption>
+        <div class="modal fade" id="pym" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" id="mone">
+                <div class="modal-content" id="mtwo">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="tmodal">REVISTA P&M</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center justify-content-center">
+                        <div class="">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <img class="col-4 p-1" src="revista/Revista.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista2.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista3.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista4.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista5.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista6.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista7.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista8.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista9.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista10.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista11.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista12.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista13.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista14.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista15.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista16.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista17.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista18.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista19.jpg" alt="">
+                                    <img class="col-4 p-1" src="revista/Revista20.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </figure>
+</article>
+    <article class="align-items-center justify-content-center col-lg-6 col-sm-6">
+    <figure id="fts" class="justify-content-center position-relative">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#etip">
+            <img class="ilust" src="imagenes/cportada.jpg" alt="CUADERNO ETIPRESS 2023">
+        </a>
+        <figcaption class="btn" data-bs-toggle="modal" data-bs-target="#etip">CUADERNO ETIPRESS 2023</figcaption>
+        <div class="modal fade" id="etip" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" id="mone">
+                <div class="modal-content" id="mtwo">
+                    <div class="modal-header">
+                        <h2 class="modal-title fs-5" id="tmodal">CUADERNO ETIPRESS 2023</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center justify-content-center">
+                        <div class="">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <img class="col-4 p-1" src="cuaderno/cuaderno (1).jpg" alt="">
+                                    <img class="col-4 p-1" src="cuaderno/cuaderno (2).jpg" alt="">
+                                    <img class="col-4 p-1" src="cuaderno/cuaderno (3).jpg" alt="">
+                                    <img class="col-4 p-1" src="cuaderno/cuaderno (4).jpg" alt="">
+                                    <img class="col-4 p-1" src="cuaderno/cuaderno (5).jpg" alt="">
+                                    <img class="col-4 p-1" src="cuaderno/cuaderno (6).jpg" alt="">
+                                    <img class="col-4 p-1" src="cuaderno/cuaderno (7).jpg" alt="">
+                                    <img class="col-4 p-1" src="cuaderno/cuaderno (8).jpg" alt="">
+                                    <img class="col-4 p-1" src="cuaderno/cuaderno (9).jpg" alt="">
+                                    <img class="col-4 p-1" src="cuaderno/cuaderno (10).jpg" alt="">
+                                    <img class="col-4 p-1" src="cuaderno/cuaderno (11).jpg" alt="">
+                                    <img class="col-4 p-1" src="cuaderno/cuaderno (12).jpg" alt="">
+                                    <img class="col-4 p-1" src="cuaderno/cuaderno (13).jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </figure>
+</article>
+
+<article class="align-items-center justify-content-center col-lg-6 col-sm-6">
+  <figure id="fts" class="justify-content-center position-relative">
+      <a href="#" data-bs-toggle="modal" data-bs-target="#manual">
+          <img class="ilust" src="imagenes/pmanual.jpg" alt="MANUAL DE IMAGEN">
+      </a>
+      <figcaption class="btn" data-bs-toggle="modal" data-bs-target="#manual">MANUAL DE IMAGEN</figcaption>
+      <div class="modal fade" id="manual" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" id="mone">
+              <div class="modal-content" id="mtwo">
+                  <div class="modal-header">
+                      <h2 class="modal-title fs-5" id="tmodal">MANUAL DE IMAGEN</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex align-items-center justify-content-center">
+                      <div class="">
+                          <div class="container-fluid">
+                              <div class="row">
+                                  <img class="col-4 p-1" src="manual/manual.jpg" alt="">
+                                  <img class="col-4 p-1" src="manual/manual2.jpg" alt="">
+                                  <img class="col-4 p-1" src="manual/manual3.jpg" alt="">
+                                  <img class="col-4 p-1" src="manual/manual4.jpg" alt="">
+                                  <img class="col-4 p-1" src="manual/manual5.jpg" alt="">
+                                  <img class="col-4 p-1" src="manual/manual6.jpg" alt="">
+                                  <img class="col-4 p-1" src="manual/manual7.jpg" alt="">
+                                  <img class="col-4 p-1" src="manual/manual8.jpg" alt="">
+                                  <img class="col-4 p-1" src="manual/manual9.jpg" alt="">
+                                  <img class="col-4 p-1" src="manual/manual10.jpg" alt="">
+                                  <img class="col-4 p-1" src="manual/manual11.jpg" alt="">
+                                  <img class="col-4 p-1" src="manual/manual12.jpg" alt="">
+                                  <img class="col-4 p-1" src="manual/manual13.jpg" alt="">
+                                  <img class="col-4 p-1" src="manual/manual14.jpg" alt="">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </figure>
+</article>
+
+<article class="align-items-center justify-content-center col-lg-6 col-sm-6">
+    <figure id="fts" class="justify-content-center position-relative">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#cuadernos">
+              <img class="ilust" src="imagenes/cportada2.jpg" alt="CUADERNO ETIPRESS 2023">
+          </a>
+          <figcaption class="btn" data-bs-toggle="modal" data-bs-target="#cuadernos">CUADERNO ETIPRESS 2024</figcaption>
+          <div class="modal fade" id="cuadernos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" id="mone">
+                  <div class="modal-content" id="mtwo">
+                      <div class="modal-header">
+                          <h2 class="modal-title fs-5" id="tmodal">CUADERNO ETIPRESS 2024</h2>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body d-flex align-items-center justify-content-center">
+                          <div class="">
+                              <div class="container-fluid">
+                                  <div class="row">
+                                      <img class="col-4 p-1" src="cuaderno 2/cuaderno.jpg" alt="">
+                                      <img class="col-4 p-1" src="cuaderno 2/cuaderno2.jpg" alt="">
+                                      <img class="col-4 p-1" src="cuaderno 2/cuaderno3.jpg" alt="">
+                                      <img class="col-4 p-1" src="cuaderno 2/cuaderno4.jpg" alt="">
+                                      <img class="col-4 p-1" src="cuaderno 2/cuaderno5.jpg" alt="">
+                                      <img class="col-4 p-1" src="cuaderno 2/cuaderno6.jpg" alt="">
+                                      <img class="col-4 p-1" src="cuaderno 2/cuaderno7.jpg" alt="">
+                                      <img class="col-4 p-1" src="cuaderno 2/cuaderno8.jpg" alt="">
+                                      <img class="col-4 p-1" src="cuaderno 2/cuaderno9.jpg" alt="">
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </figure>
+  </article>
+</section>
+<!------------------------------VIDEOS--------------------------------------->
+<section id="vid" class="col-10 m-auto">
+  <h1 class="mt-5">VIDEOS</h1>
+  <hr class="col-10 m-auto mb-3">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="d-flex justify-content-center">
+          <video class="d-block w-50" src="video/Logo - Sonido.mp4" controls autoplay muted loop></video>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex justify-content-center">
+          <video class="d-block w-50" src="video/Samsung.mp4" controls autoplay muted loop></video>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex justify-content-center">
+          <video class="d-block w-50" src="video/Spot - Cristian Correal.mp4" controls autoplay muted loop></video>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev botons" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next botons" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+    <footer class="mt-5 text-center p-2">
+      <div>
+      <a href="https://www.facebook.com/alx.correal/" target="_blank"><img src="imagenes/fb.png" alt=""></a>
+      <a href="" target="_blank"><img src="imagenes/be.png" alt=""></a>
+      <a href="https://www.instagram.com/ccorrealc/" target="_blank"><img src="imagenes/ig.png" alt=""></a>
+      <a href="https://www.linkedin.com/in/cristian-correal-739a76244/" target="_blank"><img src="imagenes/lin.png" alt=""></a>
+      <a href="" target="_blank"><img src="imagenes/tw.png" alt=""></a>
+    </div>
+    <div class="mt-2">
+      <strong><time>2023</time>-Cristian Correal</strong>
+    </div>
+    </footer>
+
+    <script src="bootstrap-5.2.0-dist/js/bootstrap.bundle.js"></script>
+
+</body>
 </html>
