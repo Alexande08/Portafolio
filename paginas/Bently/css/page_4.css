@@ -1,0 +1,107 @@
+section{
+    
+    margin: 100px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section h2{
+    background-color: #9cbf1f09;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 50px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: italic;
+    font-size: 2.5em;
+}
+
+section figure{
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    font-size: 1em;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 5px;
+    font-weight:lighter;
+    text-align: center;
+
+    
+}
+
+section figure img{
+    
+    width: 100%;
+    border-bottom: 0.1px #9CBF1F solid;
+    transition: 1s;
+}
+
+section figure figcaption{
+    background-color: #c8ff0009;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.035);
+}
+
+.gris:hover img {
+    filter: grayscale(1);
+}
+
+.sepia:hover img {
+    filter: sepia(1);
+}
+
+.brigtness:hover img {
+    filter: brightness(5);
+}
+
+.contrast:hover img {
+    filter: contrast(5);
+}
+
+.saturation:hover img {
+    filter: saturate(5);
+}
+
+.hue-rotate:hover img {
+    filter: hue-rotate(5000deg);
+}
+
+.blur:hover img {
+    filter: blur(100px);
+}
+
+.mix:hover img {
+    filter: blur(1px) hue-rotate(5000deg);
+}
+
+.invert:hover img {
+    filter: invert(1);
+}
+
+.scale:hover img {
+    transform: scale(1.5);
+}
+
+.translate:hover img {
+    transform: translate(0px, -100px);
+}
+
+.sskew:hover img {
+    transform: skew(10deg, 10deg);
+}
+
+.rotate:hover img{
+    transform: rotate(360deg);
+}
+
+.perspectiverotateY:hover img {
+    transform: perspective(1px) rotateY(0.1deg);
+}
+
+.perspectiverotateX:hover img {
+    transform: perspective(1px) rotateX(0.1deg);
+}
+
+.mixu:hover img {
+    transform: rotate(360deg) scale(1.5); ;
+}

@@ -1,0 +1,76 @@
+section{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 820px;
+    max-width: 1200px;
+}
+
+section ul{
+    width: 48%;
+
+}
+.izq{}
+.der{}
+section ul li{
+    border-bottom: 0.1px #9CBF1F solid;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section ul li h2{
+    width: 100%;
+    margin-bottom: 15px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+
+section ul li .marco{
+    width: 19%;
+    min-width:70px ;
+    max-height: 70PX;
+    height: 70px;
+    
+}
+
+
+section ul li .marco img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+
+
+section ul li p{
+    width: 80%;
+    font-size: 1em;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 0.5px;
+    font-weight:bold;
+
+}
+
+
+section ul li p a{}
+
+
+section ul li p a:hover{}
+
+.der h2{
+    order:1 ;
+}
+
+.der p{
+    order:2 ;
+}
+
+.der .marco{
+    order:3 ;
+}

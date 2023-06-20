@@ -1,0 +1,601 @@
+/*font-family: 'Roboto', sans-serif;*/
+:root{
+    ---Verde:#009743;
+    ---amarillo:#ffcb0a;
+    ---borde: 10px #bf1111 solid;
+    ---tipografia:'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 350px;
+}
+body{}
+
+nav{
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 2500;
+    opacity: 80%;
+}
+nav #logo {
+    height: 70%;
+    margin: 10px 50px;
+}
+
+nav #logo img {
+    height: 100%;
+}
+
+nav .mh {
+    height: 70%;
+    display: none;
+    position: relative;
+    z-index: 10;
+    margin: 15px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: var(---Verde);
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px 10px;
+}
+nav ul li a:hover{
+    padding: 10px;
+    background-color: var(---Verde);
+    color: var(---amarillo);
+}
+header {
+    width: 100%;
+    height: 100vh;
+}
+#inicio {
+    display: flex;
+    position: relative;
+}
+
+#inicio .titulo {
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    width: 600px;
+    height: 150px;
+    position: absolute;
+    top: 50vh;
+    left: 50px;
+    z-index: 2100;
+}
+
+#inicio .titulo h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    font-size: 45px;
+    background-color: var(---amarillo);
+    color: var(---Verde);
+    border-radius: 8px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    z-index: 2100;
+}
+
+#inicio .titulo p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 25px;
+    font-size: 21px;
+    background-color: var(---Verde);
+    color: var(---amarillo);
+    border-radius: 4px;
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    z-index: 2100;
+}
+
+#inicio .titulo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    background-color: var(---amarillo);
+    color: var(---Verde);
+    border-radius: 10px;
+    text-decoration: none;
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    z-index: 2100;
+}
+
+.mascara {
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mascara .slider {
+    height: 100%;
+    width: 500%;
+    display: flex;
+    animation: slider infinite 12s;
+}
+
+.mascara .slider .diap {
+    height: 100%;
+    width: 20%;
+}
+
+.mascara .slider .diap img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@keyframes slider {
+    0% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-20%);
+    }
+    45% {
+        transform: translateX(-20%);
+    }
+    50% {
+        transform: translateX(-40%);
+    }
+    70% {
+        transform: translateX(-40%);
+    }
+    75% {
+        transform: translateX(-60%);
+    }
+    95% {
+        transform: translateX(-60%);
+    }
+    100% {
+        transform: translateX(-80%);
+    }
+}section {
+    background-color: var(--blanco);
+    width: 100%;
+    min-height: 100vh;
+}
+
+#subs .contenedor2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#subs .contenedor2 article {
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 60px;
+}
+
+#subs .contenedor2 article h2 {
+    width: 100%;
+    margin: 0px 40px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+#subs .contenedor2 article .logo1 {
+    height: 20%;
+    margin: 0px 40px;
+    display: flex;
+    justify-content: left;
+}
+
+#subs .contenedor2 article .logo1 img {
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+}
+
+#subs .contenedor2 article p {
+    margin: 0px 40px;
+    width: 100%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#subs .contenedor2 article p a {
+    color: var(--blanco);
+    background-color: #ddb686;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#subs .contenedor2 .imgs {
+    width: 45%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#subs .contenedor2 .imgs .img1 {
+    width: 280px;
+    height: 160px;
+    margin: 10px;
+}
+
+#subs .contenedor2 .imgs .img1 img {
+    width: 100%;
+    height: 100%;
+}
+
+#subs .contenedor2 .imgs .opa img {
+    opacity: 5%;
+}
+.pildora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: var(---amarillo);
+    color: var(---Verde);
+    margin: 40px 0px 0px 40px;
+}
+#menu h2 {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+#menu .imgs1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+#menu .imgs1 .mg {
+    width: 160px;
+    height: 160px;
+}
+
+#menu .imgs1 .mg {
+    width: 160px;
+    height: 160px;
+}
+
+#menu .imgs1 .mg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 3px;
+    background-color: var(---amarillo);
+}
+#menu .listas {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu .listas ul {
+    padding-bottom: 10px;
+    text-decoration: none;
+    column-count: 2;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+#menu .listas ul li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#menu .listas ul li .elm {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 20px 10px 0px;
+}
+
+#menu .listas ul li .elm h3 {
+    color: var(---Verde);
+    background-color: var(---amarillo);
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#menu .listas ul li .elm p {
+    width: 100%;
+    text-align: left;
+}
+
+#menu .listas ul li .precio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(---Verde);
+    background-color: var(---amarillo);
+    font-size: 24px;
+    width: 80px;
+    height: 80px;
+    width: 80px;
+    height: 80px;
+    margin: 20px 20px 10px 0px;
+}
+#llama {
+    background-image: url(../imagenes/restaurante2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#llama .contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#llama h2 {
+    width: 100%;
+    font-size: 60px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(---tipografia);
+    color: var(---amarillo);
+    text-shadow: 2px 2px black;
+}
+
+#llama .contacto img {
+    height: 100px;
+}
+
+#llama h3 {
+    font-size: 60px;
+    font-family: var(---tipografia);
+    color: var(---amarillo);
+    text-shadow: 2px 2px black;
+}
+
+#llama p {
+    width: 100%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: var(---tipografia);
+    color: var(---amarillo);
+    text-shadow: 2px 2px black;
+}
+#sand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+#sand h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+#sand .contenedor {
+    width: 95%;
+    height: 460px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+#sand .opcion {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    margin-right: 30px;
+    text-align: center;
+}
+
+#sand .borde {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+#sand .marco {
+    width: 93%;
+    height: 97%;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+#sand .marco img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 8px;
+}
+
+#sand .marco .salami {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 0.4s;
+    transform: scale(0);
+}
+
+#sand .marco:hover .salami {
+    transform: scale(4);
+}
+
+#sand .marco .salami img {
+    height: 45px;
+}
+
+#sand .opcion h3 {
+    width: 100%;
+    color: var(---Verde);
+    background-color: var(---amarillo);
+    font-size: 18px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+#sand .opcion p {
+    width: 100%;
+    color: var(--negro);
+    font-size: 14px;
+    margin-top: 7px;
+}
+#contacto {
+    background-image: url(../imagenes/restaurante1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#contacto h2 {
+    width: 100%;
+    font-size: 60px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(---tipografia);
+    color: var(---Verde);
+    text-shadow: 2px 2px black;
+}
+
+#contacto a {
+    width: 100%;
+}
+
+#contacto a img {
+    height: 60%;
+    width: 60%;
+    object-fit: contain;
+}
+#contacto .tcontacto{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(---tipografia);
+    color: var(---Verde);
+    text-shadow: 2px 2px black;
+}
+
+
+footer {
+    width: 380px;
+    height: 80px;
+    background-color: var(--coscuro);
+    color: var(--blanco);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.contacto a{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 10px;
+    bottom: 60px;
+    display: flex;
+    justify-content:space-around;
+}
