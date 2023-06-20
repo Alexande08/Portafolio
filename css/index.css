@@ -133,10 +133,35 @@ hr{
 #mone{
     max-width: 62%;
 }
-.botons{
+#carouselExampleControls {
+    position: relative;
+  }
+  
+  .carousel-indicators {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -30px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
     background-color: #cbff33;
-    width: 60px;
-}
+    
+  }
+  
+  .carousel-indicators li {
+    background-color:#ffffff;
+    width: 12px;
+    height: 12px;
+    margin: 0 6px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .carousel-indicators li.active {
+    background-color: #ffffff;
+  }
 footer{
     background-color: black;
     border-top: 3px #cbff33 solid;
