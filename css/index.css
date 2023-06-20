@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    min-width: 481px;
-}
+body{min-width: 375px;}
 
 nav.navbar {
     background-color:black;  
@@ -126,5 +124,3 @@ strong{
     font-size: 15pt;
     font-weight: 100;
 }
-
-
