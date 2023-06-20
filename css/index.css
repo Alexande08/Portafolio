@@ -133,6 +133,15 @@ hr{
 #mone{
     max-width: 62%;
 }
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #ccff332d;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
 #carouselExampleControls {
     position: relative;
   }
