@@ -4,7 +4,31 @@
     box-sizing: border-box;
 }
 body{min-width: 375px;}
-
+/*
+Full screen Modal 
+*/
+.fullscreen-modal .modal-dialog {
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100vh;
+  }
+  @media (min-width: 768px) {
+    .fullscreen-modal .modal-dialog {
+      width: 750px;
+    
+    }
+  }
+  @media (min-width: 992px) {
+    .fullscreen-modal .modal-dialog {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .fullscreen-modal .modal-dialog {
+       width: 1170px;
+    }
+  }
 nav.navbar {
     background-color:black;  
     border-bottom: 3px #cbff33 solid;
