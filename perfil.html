@@ -17,6 +17,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -47,33 +49,7 @@
         <section class=".d-none .d-sm-block .d-md-none d-md-none ">
           <img class="col-md-8 col-6 mx-auto d-block" src="imagenes/Foto.jpg" alt="">
       </section>
-      <p>Soy técnico en diseño multimedia y tecnólogo en producción de multimedia, manejo diferentes programas de edición, como Photoshop, Illustrator, InDesign, Premier Pro, entre otros, tengo diferentes habilidades creativas, en esta página puedes encontrar algunas cosas de las que he hecho.
-        <br>
-        Aquí encontraras mi hoja de vida para ver un poco más de mi trayectoria.
-        <br>
-        &darr;
-        </p>
-        <article class="mover">
-          <figure id="hdv">
-              <figcaption class="btn" data-bs-toggle="modal" data-bs-target="#hv">HOJA DE VIDA</figcaption>
-              <div class="modal fade" id="hv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" >
-                  <div class="modal-content" id="mtwo">
-                    <div class="modal-header">
-                      <h2 class="modal-title fs-5" id="tmodal">HOJA DE VIDA</h2>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center justify-content-center">
-                          <div class="">
-                            <img src="imagenes/hoja de vida.jpg" class="d-block w-100 h-100" alt="...">
-                        </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </figure>
-      </article>
-
+      <p>Soy técnico en diseño multimedia y tecnólogo en producción de multimedia, manejo diferentes programas de edición, como Photoshop, Illustrator, InDesign, Premier Pro, entre otros, tengo diferentes habilidades creativas, en esta página puedes encontrar algunas cosas de las que he hecho.</p>
       </section>
       <section class="d-none d-sm-block d-sm-none d-md-block col-6">
           <img class="col-md-8 col-6 mx-auto d-block" src="imagenes/Foto.jpg" alt="">
@@ -85,8 +61,187 @@
       </section>
   </header>
   <section>
-    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 hvd">
+          <h1>Información Personal</h1>
+          <ul>
+            <li>Nombre: Cristian Correal</li>
+            <li>Teléfono: +57 322 309 05 31</li>
+            <li>Email: cacc08@hotmail.com</li>
+            <li>Dirección: Calle Falsa 123, Ciudad Ficticia</li>
+          </ul>
+          <h3>Educación</h3>
+          <ul>
+            <li>SENA - Diseño e Integracion de Multimedia</li>
+            <li>SENA - Producción de Multimedia (en curso)</li>
+          </ul>
+        </div>
+        <div class="col-md-6 hvd">
+          <h1>Experiencia Laboral</h1>
+          <h5>Auxiliar de grabaciones - Caracol Radio.</h5>
+          <h5>Auxiliar Administrativo - Anditel S.A.</h5>
+          <h5>Asistente de marketing digital - Etipress S.A.</h5>
+        </div>
+      </div>
+      </div>
+    </div>    
   </section>
+
+<section class="elegirme hvd">
+      <div class="acp">
+        <h3>HABILIDADES</h3>
+        <div class="conthr3">
+        </div>
+      </div>
+    
+      <div class="tab">
+        <button class="tablinks d-none" onclick="openCity(event,'habilidades')" id="defaultOpen"></button>
+      </div>
+    
+      <div id="habilidades" class="tabcontent">
+        <div class="barras">
+          <div class="barraspadre">
+            <div class="contenedor">
+              <h3>FRONT END</h3>
+    
+              <div class="skills">
+                <div class="detalles">
+                  <span>HTML</span>
+                  <span>70%</span>
+                </div>
+    
+                <div class="mon">
+                  <div id="html-mon"></div>
+                </div>
+              </div>
+    
+              <div class="skills">
+                <div class="detalles">
+                  <span>CSS</span>
+                  <span>70%</span>
+                </div>
+    
+                <div class="mon">
+                  <div id="css-mon"></div>
+                </div>
+              </div>
+    
+              <div class="skills">
+                <div class="detalles">
+                  <span>JAVASCRIPT</span>
+                  <span>30%</span>
+                </div>
+    
+                <div class="mon">
+                  <div id="javascript-mon"></div>
+                </div>
+              </div>
+    
+              <div class="skills">
+                <div class="detalles">
+                  <span>BOOTSTRAP</span>
+                  <span>60%</span>
+                </div>
+    
+                <div class="mon">
+                  <div id="bootstrap-mon"></div>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+    
+          <div class="barraspadre">
+            <div class="contenedor">
+              <h3>DISEÑO</h3>
+    
+              <div class="skills">
+                <div class="detalles">
+                  <span>Illustrator</span>
+                  <span>85%</span>
+                </div>
+    
+                <div class="mon">
+                  <div id="photoshop-mon"></div>
+                </div>
+              </div>
+    
+              <div class="skills">
+                <div class="detalles">
+                  <span>Photoshop</span>
+                  <span>80%</span>
+                </div>
+    
+                <div class="mon">
+                  <div id="illustrator-mon"></div>
+                </div>
+              </div>
+    
+              <div class="skills">
+                <div class="detalles">
+                  <span>InDesign</span>
+                  <span>75%</span>
+                </div>
+    
+                <div class="mon">
+                  <div id="indesign-mon"></div>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+    
+          <div class="barraspadre">
+            <div class="contenedor">
+              <h3>MULTIMEDIA</h3>
+    
+              <div class="skills">
+                <div class="detalles">
+                  <span>After Effects</span>
+                  <span>55%</span>
+                </div>
+    
+                <div class="mon">
+                  <div id="aftereffects-mon"></div>
+                </div>
+              </div>
+    
+              <div class="skills">
+                <div class="detalles">
+                  <span>Premiere</span>
+                  <span>60%</span>
+                </div>
+    
+                <div class="mon">
+                  <div id="premiere-mon"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <script>
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+    </script>
+    
 
   <footer class="mt-5 text-center p-2">
     <div>

@@ -86,14 +86,6 @@ hr{
     display: flex;
     justify-content: center;
 }
-#hdv{
-    text-align: center;
-    background-color: black;
-}
-#hdv figcaption{
-    font-family: 'Teko', sans-serif;
-    color: #cbff33;
-}
 #fts figcaption {
     background-color:#ccff3354;
     position: absolute;
@@ -113,7 +105,10 @@ hr{
     border-radius: 0;
     font-family: 'Teko', sans-serif;
 }
-
+.hvd{
+    font-family: 'Teko', sans-serif;
+    font-size: 15pt;  
+}
 #fts:hover figcaption {
     top: 0%;
     transform: rotate(0deg);

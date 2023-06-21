@@ -1,0 +1,187 @@
+/*---elegirme--*/
+.acp h3{
+    font-size: 37px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+}
+
+.tab {
+  border-bottom: 8px solid #cbff33;
+  width: 70%;
+  margin: auto;
+}
+
+.tabcontent {
+  padding: 10px 16px;
+  width: 70%;
+  margin: auto;
+}
+
+/*--Barras--*/
+.barras{
+  height: 66vh;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.barraspadre{
+  width:32%;
+  margin: 0px 15px;
+}
+
+.contenedor{
+  width:100%;
+  height: 95%;
+  padding: 30px 30px 50px;
+  border-radius: 10px;
+  font-weight: 600;
+  -webkit-box-shadow: -2px 6px 18px -6px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: -2px 6px 18px -6px rgba(0, 0, 0, 0.68);
+  box-shadow: -2px 6px 18px -6px rgba(0, 0, 0, 0.68);
+}
+
+.skills:not(:last-child){
+  margin-bottom: 30px;
+}
+.hvd{
+  color: black;
+  font-family: 'Teko', sans-serif;
+}
+
+.detalles{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.mon div{
+  position: relative;
+  margin: 0;
+  height: 5px;
+  background-color:#cbff33;
+}
+
+/*animación*/
+
+#html-mon{
+  animation: html-barra 3s forwards;
+} 
+
+@keyframes html-barra{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:70%;
+  }
+}
+
+#css-mon{
+  animation: css-barra 3s forwards;
+} 
+
+@keyframes css-barra{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:73%;
+  }
+}
+
+#javascript-mon{
+  animation: javascript-barra 3s forwards;
+} 
+
+@keyframes javascript-barra{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:30%;
+  }
+}
+
+#bootstrap-mon{
+  animation: bootstrap-barra 3s forwards;
+} 
+
+@keyframes bootstrap-barra{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:70%;
+  }
+}
+
+/*animación*/
+
+#photoshop-mon{
+  animation: photoshop-barra 3s forwards;
+} 
+
+@keyframes photoshop-barra{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:68%;
+  }
+}
+
+#illustrator-mon{
+  animation: illustrator-barra 3s forwards;
+} 
+
+@keyframes illustrator-barra{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:73%;
+  }
+}
+
+#indesign-mon{
+  animation: indesign-barra 3s forwards;
+} 
+
+@keyframes indesign-barra{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:65%;
+  }
+}
+
+/*animación*/
+
+#aftereffects-mon{
+  animation: aftereffects-barra 3s forwards;
+} 
+
+@keyframes aftereffects-barra{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:55%;
+  }
+}
+
+#premiere-mon{
+  animation: premiere-barra 3s forwards;
+} 
+
+@keyframes premiere-barra{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:60%;
+  }
+}
